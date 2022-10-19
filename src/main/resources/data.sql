@@ -1,4 +1,1 @@
-INSERT INTO students(id, fio, age) VALUES (1, 'Ivanov', 20);
-INSERT INTO students(id, fio, age) VALUES (2, 'Petrov', 21);
-INSERT INTO students(id, fio, age) VALUES (3, 'Sidorov', 19);
-INSERT INTO students(id, fio, age) VALUES (4, 'Kin', 22);
+INSERT INTO students(fio, age) VALUES ('Ivanov', 20), ('Petrov', 21), ('Sidorov', 22), ('Kim', 25);
