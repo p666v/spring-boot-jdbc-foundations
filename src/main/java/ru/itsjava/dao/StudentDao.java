@@ -12,4 +12,6 @@ public interface StudentDao {
 
     void delete(Student student);
 
+    Student findById(long id);
+
 }

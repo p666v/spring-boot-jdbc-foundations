@@ -27,8 +27,12 @@ public class SpringBootJdbcFoundationsApplication {
         updateStudent.setId(1L);
         studentDao.updateStudent(updateStudent);
 
+        System.out.println("studentDao.findById(1L) = " + studentDao.findById(1L));
+
         studentDao.delete(updateStudent);
         System.out.println("studentDao.count() = " + studentDao.count());
+
+
 
         Console.main(args);
 
